@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="check">Check!</string>	
+    <string name="app_name">My Timesheet</string>
+    <string name="titulo">Timesheet</string>
+    <string name="mensagem">Error to insert!!</string>
+    <string name="jornada">Journey of work : </string>
+    <string name="editar_hora">Edit Hours</string>
+    <string name="apagar_hora">Delete Hours</string>
+    <string name="deseja_apagar_hora">Do you want to delete the selected hour?</string>
+    <string name="atencao">Atention!</string>
+    <string name="jornada_dia">Journey of work daily(hrs) : </string>
+    <string name="jornada_sabado">Journey of work in Saturday(hrs) : </string>
+	<string name="trabalha_sabado">Works in Saturday</string>           
+	<string-array name="mes">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>	
+    <string name="calendario">Calendar</string>
+    <string name="relatorio">Report</string>
+    <string name="add_hora">Add Hour</string>
+	<string name="add_dia">Add Day</string>
+	<string name="horas_trabalhadas">Worked Hours :</string>
+	<string name="nova_jornada">New Jorney!</string>
+	<string name="informa_jornada">Please inform a daily jorney!</string>
+	<string name="nova_jornada_salva">New Journey saved!</string>
+	<string name="ponto_batido">Checked!</string>
+	<string name="limpar_banco">Clear DataBase!</string>
+	<string name="sim">yes</string>
+    <string name="nao">No</string>
+    <string name="horas">Hours:</string>
+	<string name="ponto">Check</string>
+    <string-array name="opcoes">
+        <item>Edit Hour</item>
+        <item>Remove Hour</item>
+    </string-array>
+    <string name="salvar">Save</string>
+	<string name="hora_invalida">Invalid Hours!</string>
+    <string name="stop_alarm">Stop Alarm!</string>
+    <string name="upload">Upload Back Up</string>
+    <string name="download">Restore DataBase!</string>
+	<string name="drop_box">Sinc to DropBox</string>
+	 <string name="descriptin_drop_box">Drop Box Logo</string>
+    <string name="upload_executed"> Back Up sended!</string>
+    <string name="total">Total!</string>
+    <string name="db_path">"/data/data/com.MeuPonto/databases/FolhaPonto"</string>
+    <string name="data_nao_registrada">"No check point register for this day!"</string>
+
+     <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Calendar</item>
+        <item >Back Up</item>
+        <item >Report</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_calendar</item>
+        <item>@drawable/ic_back_up</item>
+        <item>@drawable/ic_report</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

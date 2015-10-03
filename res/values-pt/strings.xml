@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MeuPonto</string>
+    <string name="titulo">Folha de Ponto</string>
+    <string name="mensagem">Erro ao inserir o registro!!</string>
+    <string name="jornada">Jornada de Trabalho mensal: </string>
+    <string name="deseja_apagar_hora">Deseja apagar a hora selecionada?</string>
+    <string name="atencao">Atencão</string>
+    <string name="jornada_dia">Jornada de Trabalho diária(hrs) : </string>
+    <string name="jornada_sabado">Jornada de Trabalho no Sabado(hrs) : </string>
+    <string name="trabalha_sabado">Trabalha no Sabado</string>
+    <string name="editar_hora">Editar Hora</string>
+    <string name="apagar_hora">Remover Hora</string>
+    <string-array name="mes">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </string-array>
+    <string name="calendario">Calendário</string>
+    <string name="relatorio">Relatório</string>
+    <string name="add_hora">Adicionar Ponto</string>
+    <string name="add_dia">Adicionar Dia</string>
+    <string name="horas_trabalhadas">Horas Trabalhadas :</string>
+    <string name="nova_jornada">Editar Jornada</string>
+    <string name="informa_jornada">Favor informar a jornada de trabalho diária!</string>
+    <string name="nova_jornada_salva">Jornada de trabalho salva!</string>
+    <string name="ponto_batido">Ponto Salvo!</string>
+    <string name="limpar_banco">Limpar Banco de Dados!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="horas">Horas:</string>
+    <string-array name="opcoes">
+        <item>Editar Hora</item>
+        <item>Apagar Hora</item>
+    </string-array>
+    <string name="salvar">salvar</string>
+    <string name="hora_invalida">Hora informada invalida!</string>
+    <string name="upload">Fazer BackUp</string>
+    <string name="donwload">Recuperar Back Up</string>
+    <string name="drop_box">Sincronizar com DropBox</string>
+    <string name="descriptin_drop_box">Drop Box Logo</string>
+    <string name="upload_executed"> Back Up enviado!</string>
+    <string name="stop_alarm">Parar Alarme!</string>
+    <string name="ponto">Bater Ponto</string>
+    <string name="download">Recuperar Banco de Dados</string>
+    <string name="total">Total!</string>
+    <string name="db_path">"/data/data/com.MeuPonto/databases/FolhaPonto"</string>
+    <string name="data_nao_registrada">"Não existem pontos registrados para este dia!"</string>
+    <string name="check">Bater Ponto!</string>
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Calendario</item>
+        <item >Back Up</item>
+        <item >Relatório</item>
+    </string-array>
+</resources>

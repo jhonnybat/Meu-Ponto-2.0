@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="@string/jornada_dia" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+    <EditText
+        android:id="@+id/edt_hora_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="time" >
+
+    </EditText>
+
+      <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trabalha_sabado" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jornada_sabado" />
+
+    <EditText
+        android:id="@+id/edt_hora_sabado_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:enabled="false"
+        android:inputType="time">
+
+        <requestFocus />
+    </EditText>
+
+    <Button android:text="@string/salvar" android:id="@+id/btn_salvar" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+    
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/add_dia" android:title="@string/add_dia"></item>
+    <item android:id="@+id/nova_jornada" android:title="@string/nova_jornada"></item>
+
+    
+
+</menu>
